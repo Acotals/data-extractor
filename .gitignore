@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+*.exe
+*.dll
+*.obj
+*.lib
+*.exp
+*.enc
+
+# Configuration files (sensitive)
+config.json
+src/core/telegram_config.hpp
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Temporary files
+tmp/
+*.log
+*.tmp
+
+# Archives
+*.zip
+*.7z
+*.rar
